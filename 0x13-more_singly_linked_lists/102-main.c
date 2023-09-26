@@ -13,6 +13,9 @@ int main(void)
     listint_t *head;
     listint_t *head2;
     listint_t *node;
+listint_t *reverse_listint(listint_t **head);
+size_t free_listint_safe(listint_t **head);
+void print_listint_safe(const listint_t *head);
 
     head2 = NULL;
     add_nodeint(&head2, 0);
