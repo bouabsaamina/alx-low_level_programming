@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #define READ_BUF_SIZE 1024
 /**
- * read_textfile - reads text from a file and prints it
+ * read_textfile - reads a text file and prints it to the POSIX standard output
  * @filename: name of file to read
  * @letters: number of bytes to read
  * return: number bytes read/printed
